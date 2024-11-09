@@ -118,8 +118,6 @@ class WifiPass(QWidget):
             else:
                 qr_code = qr.wifi_qrcode(name, False, "nopass")
                 qr_code.make_image().save(f"QrCodeWifi/{name}_wifi_qr_tkb.png")
-    def generateQrCode(self):
-        sender
     def paintEvent(self, e):
         painter = QPainter(self)
         painter.setRenderHint(QPainter.Antialiasing)
