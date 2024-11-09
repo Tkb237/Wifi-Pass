@@ -1,0 +1,1 @@
+Dans cette version on a elimine le lag present lors de l'appui du boutton "Aktualisieren" grace au module Qthread
